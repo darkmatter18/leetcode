@@ -4,7 +4,7 @@ public:
         int i = 0, j, first_zero = nums.size() - 1;
         
         while(i < nums.size()-1){
-            cout << "loop" << i << " " << nums[i] << endl;
+            //cout << "loop" << i << " " << nums[i] << endl;
             if(nums[i] == nums[i+1]){
                 nums[i] *= 2;
                 nums[i+1] = 0;
@@ -18,7 +18,7 @@ public:
         }
         
         while(first_zero >= 0){
-            cout << "item " << first_zero << " " << nums[first_zero] << endl;
+            //cout << "item " << first_zero << " " << nums[first_zero] << endl;
             if(nums[first_zero] == 0){
                 // if nums[0] is equal to 0
                 // move it until zero comes
