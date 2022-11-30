@@ -7,8 +7,8 @@ public:
         a = string(max_len - a_l, '0').append(a);
         b = string(max_len - b_l, '0').append(b);
         
-        cout << a << endl;
-        cout << b << endl;
+        // cout << a << endl;
+        // cout << b << endl;
         
         int carry = 0;
         string s;
