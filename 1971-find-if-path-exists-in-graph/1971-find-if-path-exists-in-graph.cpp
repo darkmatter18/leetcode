@@ -3,7 +3,7 @@ public:
     bool ifPath(int source,int destination,vector<bool>& vis,vector<int> adj[])
     {
         vis[source]=true;                               // mark as visited
-        cout<<source<<" ";
+        // cout<<source<<" ";
         if(source==destination) return true;            // if we got our destination
 
         for(auto it : adj[source])
