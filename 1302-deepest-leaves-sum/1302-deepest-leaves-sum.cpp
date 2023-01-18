@@ -30,8 +30,6 @@ public:
             return;
         }
         
-        
-        
         curr_depth++;
         
         add_ans(root->left, curr_depth, act_depth, ans);
