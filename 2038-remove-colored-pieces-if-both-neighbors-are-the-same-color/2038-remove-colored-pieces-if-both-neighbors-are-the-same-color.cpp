@@ -30,7 +30,7 @@ public:
             return false;
         }
         
-        cout << a_count << " " << b_count;
+        // cout << a_count << " " << b_count;
         return a_count > b_count;
     }
 };
