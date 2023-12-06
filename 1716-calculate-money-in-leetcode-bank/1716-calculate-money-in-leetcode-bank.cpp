@@ -16,15 +16,12 @@ public:
         int total = 0, i = 0;
         
         while(n > 7){
-            // cout << week_wise(7, 0) << endl;
             total += week_wise(7, i);
             n-=7;
             i++;
         }
   
         total +=  week_wise(n, i);
-        // cout << week_wise(n, i) << endl;
-        
         return total;
     }
 };
