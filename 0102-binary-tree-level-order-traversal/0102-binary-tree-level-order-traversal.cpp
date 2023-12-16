@@ -13,15 +13,13 @@ class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
         vector<vector<int>> ret;
-        if(root == nullptr)
-            return ret;
-            
+        vector<int> v;
         queue<TreeNode*> q;
-        q.push(root);
-        
         int max_el = 1, next_max_el;
         
-        vector<int> v;
+        if(root == nullptr) return ret;
+        q.push(root);
+        
         while(!q.empty()){
             next_max_el = max_el * 2;
             for(int i = 0; i < max_el; i++){
