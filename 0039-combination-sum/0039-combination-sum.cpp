@@ -7,8 +7,6 @@ public:
         
         cS(candidates, target, 0, res, data);
         
-        vector<vector<int>> output(res.size());
-        copy(res.begin(), res.end(), output.begin());
         return res;
     }
     
