@@ -19,11 +19,9 @@ private:
             return;
         }
         
+        cS(candidates, target, idx+1, res, curr);
         curr.push_back(candidates[idx]);
         
         cS(candidates, target-candidates[idx], idx, res, curr);
-        
-        curr.pop_back();
-        cS(candidates, target, idx+1, res, curr);
     }
 };
