@@ -6,11 +6,8 @@ public:
 
         long currentUgly = 1;
         for (int i = 0; i < n; i++) {
-            currentUgly =
-                *uglyNumbersSet
-                     .begin();  // Get the smallest number from the set
-            uglyNumbersSet.erase(
-                uglyNumbersSet.begin());  // Remove it from the set
+            currentUgly = *uglyNumbersSet.begin();  // Get the smallest number from the set
+            uglyNumbersSet.erase(uglyNumbersSet.begin());  // Remove it from the set
 
             // Insert the next potential ugly numbers
             uglyNumbersSet.insert(currentUgly * 2);
