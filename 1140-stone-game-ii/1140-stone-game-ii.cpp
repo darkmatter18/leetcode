@@ -3,8 +3,10 @@ public:
     int stoneGameII(vector<int>& piles) {
         vector<vector<int>> memo(piles.size(), vector<int>(piles.size()));
         vector<int> suffixSum = piles;
+        
         for (int i = suffixSum.size() - 2; i >= 0; --i)
             suffixSum[i] += suffixSum[i + 1];
+        
         return maxStones(suffixSum, 1, 0, memo);
     }
 
