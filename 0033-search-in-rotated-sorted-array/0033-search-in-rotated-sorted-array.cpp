@@ -23,33 +23,50 @@ public:
                 break;
             }
             
+            // Get the middle element and check if it is the target
             m = (l+r) / 2;
             if(target == nums[m]){
                 return m;
             } 
+            
+            // middle point is in the left sorted array
             else if(nums[l] <= nums[m]){
-                // mid is in the left part
+                
+                // target is greater than middle point, check right
                 if(target > nums[m]){
                     l = m+1;
                 }
                 else {
+                    
+                    // target is less than middle point and less than left point, check right
                     if(target < nums[l]){
                         l = m+1;
                     }
+                    
+                    // target is less than middle point and greater than equal to left point, check left
                     else {
                         r = m-1;
                     }
                 }
             }
+            
+            // middle point is in the right sorted array
             else {
-                // mid is in the right part
+
+                // target is less than middle point, check left array
                 if(target < nums[m]){
                     r = m-1;
                 }
+                
+                // target is greater than middle point, it can be in both halves
                 else {
+                    
+                    // target is greater than middle point and greater than the right element, check left
                     if(target > nums[r]){
                         r = m-1;
                     }
+                    
+                    // target is greater than middle point and less than equal to the right elemtent, check right
                     else {
                         l = m+1;
                     }
