@@ -15,10 +15,6 @@ public:
         
         while(l <= r){
             m = (l+r)/2;
-            // if(v[m].first == timestamp){
-            //     return v[m].second;
-            // }
-            // else 
             if(data[key][m].first > timestamp){
                 r = m-1;
             }
