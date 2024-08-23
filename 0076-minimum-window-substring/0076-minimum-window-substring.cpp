@@ -45,9 +45,7 @@ public:
                     res = ei-si;
                     res_si = si;
                 }
-                update_dec(s[si]);
-                // cout << si << " " << ei << endl;
-                
+                update_dec(s[si]);                
                 si++;
             }
             else {
@@ -57,7 +55,6 @@ public:
         }
         ei--;
         
-        
         while(isConditionMet()){
             if(res > ei-si+1){
                 res = ei-si+1;
@@ -66,10 +63,8 @@ public:
             update_dec(s[si]);
             si++;
         }
-        // cout << si << " " << ei << endl;
         
         if(res == INT_MAX) return "";
         return s.substr(res_si, res);
-        
     }
 };
