@@ -15,6 +15,7 @@ private:
 
     void recursive(TreeNode *root){
         if(root == nullptr) return;
+        if(ans != INT_MIN) return;
         
         recursive(root->left);
         if(_k-1 == 0){
