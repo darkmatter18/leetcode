@@ -10,19 +10,25 @@
  * };
  */
 class Solution {
-    void recursive(TreeNode *root, vector<int> &res){
+private:
+    int ans = INT_MIN, _k;
+
+    void recursive(TreeNode *root){
         if(root == nullptr) return;
         
-        recursive(root->left, res);
-        res.push_back(root->val);
-        recursive(root->right, res);
+        recursive(root->left);
+        if(_k-1 == 0){
+            ans = root->val;
+        }
+        _k--;
+        recursive(root->right);
     }
     
 public:
     int kthSmallest(TreeNode* root, int k) {
-        vector<int> data;
-        recursive(root, data);
+        _k = k;
+        recursive(root);
         
-        return data[k-1];
+        return ans;
     }
 };
