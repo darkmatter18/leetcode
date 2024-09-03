@@ -19,23 +19,17 @@ public:
         
         int time = 0;
         while(!task_queue.empty() || !q.empty()){
-            // cout << time << " ";
             if(!task_queue.empty()){
                 // Get the task with most amount of tasks remaining
                 int curr_task = task_queue.top();
-                // cout << "Task Done: " << curr_task;
                 task_queue.pop();
                 curr_task--;
 
                 // Puch the remaining task on the 
                 if(curr_task > 0){
-                    // cout << " Push " << (curr_task, time+n);
                     q.push(make_pair(curr_task, time+n));
                 }   
             }
-            // else {
-            //     cout << " IDLE ";
-            // }
             
             while(!q.empty()){
                 // Get the current remaining task
@@ -44,14 +38,12 @@ public:
                 if(p.second == time){
                     task_queue.push(p.first);
                     q.pop();
-                    // cout << " POP "  << " " << p.first << " " << p.second ;
                 }
                 else {
                     break;
                 }
                 
             }
-            // cout << endl;
             time++;
         }
         
