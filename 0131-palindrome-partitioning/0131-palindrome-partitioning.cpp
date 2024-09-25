@@ -9,9 +9,7 @@ private:
     
     void backtrack(string s, vector<string> curr, vector<vector<string>> &res){
         if(s.size() == 0) {
-            if(curr.size() > 0){
-                res.push_back(curr);
-            }
+            res.push_back(curr);
             return;
         }
         
