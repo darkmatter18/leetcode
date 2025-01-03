@@ -14,9 +14,14 @@ I don't know why.......... But I am doing it.
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/darkmatter18/leetcode/tree/master/0001-two-sum) |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/darkmatter18/leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
