@@ -1,8 +1,8 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        set<int> s; // set to hold the numbers and get a O(1) while retrival
-        int res = 0;
+        unordered_set<int> s; // set to hold the numbers and get a O(1) while retrival
+        int res = 0, tmp;
 
         // Insert the elements in the set
         for(int num : nums){
@@ -16,7 +16,7 @@ public:
             }
 
             // num is the start of the seq
-            int tmp = num+1;
+            tmp = num+1;
             while(s.find(tmp) != s.end()){
                 tmp++;
             }
