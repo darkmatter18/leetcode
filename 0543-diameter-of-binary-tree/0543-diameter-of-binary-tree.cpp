@@ -10,22 +10,24 @@
  * };
  */
 class Solution {
-private:
-    pair<int, int> diameter(TreeNode* root){
-        if(root==nullptr) return make_pair(0, 0);
-        
-        pair<int, int> left = diameter(root->left);
-        pair<int, int> right = diameter(root->right);
-        
-        int height = max(left.first, right.first) + 1;
-        int diameter = max(max((left.first + right.first), left.second), right.second);
-        
-        return make_pair(height, diameter);
-    }
+    int res;
 public:
+    Solution(){
+        res = 0;
+    }
     int diameterOfBinaryTree(TreeNode* root) {
-        pair<int, int> res = diameter(root);
-        
-        return res.second;
+        dfs(root);
+        return res;
+    }
+
+    int dfs(TreeNode* root){
+        if(root == nullptr) return 0;
+
+        int left_h = dfs(root->left);
+        int right_h = dfs(root->right);
+
+        res = max(res, left_h+right_h);
+
+        return max(left_h, right_h) + 1;
     }
 };
