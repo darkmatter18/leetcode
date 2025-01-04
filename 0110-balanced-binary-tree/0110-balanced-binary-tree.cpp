@@ -10,25 +10,24 @@
  * };
  */
 class Solution {
-    pair<bool, int> recursive(TreeNode *root){
-        if(root == nullptr) return make_pair(true, 0);
-        
-        pair<bool, int> left = recursive(root->left);
-        pair<bool, int> right = recursive(root->right);
-
-        if(left.first && right.first && abs(left.second-right.second) <= 1){
-            return make_pair(true, max(left.second, right.second)+1);
-        }
-        else {
-            return make_pair(false, max(left.second, right.second)+1);
-        }
-    }
-    
-    
-    
+    bool balanced;
 public:
+    Solution(){
+        balanced = true;
+    }
     bool isBalanced(TreeNode* root) {
-        pair<bool, int> res = recursive(root);
-        return res.first;
+        dfs(root);
+        return balanced;
+    }
+
+    int dfs(TreeNode* root){
+        if(root == nullptr) return 0;
+
+        int left = dfs(root->left);
+        int right = dfs(root->right);
+
+        balanced = balanced && (abs(left-right) <= 1);
+
+        return max(left, right) + 1;
     }
 };
