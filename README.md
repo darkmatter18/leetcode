@@ -20,6 +20,7 @@ I don't know why.......... But I am doing it.
 | [0128-longest-consecutive-sequence](https://github.com/darkmatter18/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/darkmatter18/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/darkmatter18/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 ## Prefix Sum
 |  |
@@ -93,4 +94,8 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0078-subsets](https://github.com/darkmatter18/leetcode/tree/master/0078-subsets) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 <!---LeetCode Topics End-->
