@@ -15,6 +15,7 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/darkmatter18/leetcode/tree/master/0001-two-sum) |
+| [0078-subsets](https://github.com/darkmatter18/leetcode/tree/master/0078-subsets) |
 | [0128-longest-consecutive-sequence](https://github.com/darkmatter18/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/darkmatter18/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/darkmatter18/leetcode/tree/master/0238-product-of-array-except-self) |
@@ -82,4 +83,12 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/darkmatter18/leetcode/tree/master/0572-subtree-of-another-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/darkmatter18/leetcode/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/darkmatter18/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
