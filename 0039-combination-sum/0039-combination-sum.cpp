@@ -9,10 +9,9 @@ public:
             return;
         }
 
+        recursive(candidates, idx+1, target, res, inter);
         inter.push_back(candidates[idx]);
         recursive(candidates, idx, target-candidates[idx], res, inter);
-        inter.pop_back();
-        recursive(candidates, idx+1, target, res, inter);
     }
 
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
