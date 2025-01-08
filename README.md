@@ -22,6 +22,7 @@ I don't know why.......... But I am doing it.
 | [0238-product-of-array-except-self](https://github.com/darkmatter18/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -81,10 +82,12 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/darkmatter18/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/darkmatter18/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -98,4 +101,12 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+## Trie
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Rolling Hash
+|  |
+| ------- |
+| [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 <!---LeetCode Topics End-->
