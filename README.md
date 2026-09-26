@@ -21,6 +21,7 @@ I don't know why.......... But I am doing it.
 | [0150-evaluate-reverse-polish-notation](https://github.com/darkmatter18/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0238-product-of-array-except-self](https://github.com/darkmatter18/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/darkmatter18/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Prefix Sum
@@ -33,6 +34,7 @@ I don't know why.......... But I am doing it.
 | ------- |
 | [0001-two-sum](https://github.com/darkmatter18/leetcode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/darkmatter18/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/darkmatter18/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 ## Union Find
 |  |
 | ------- |
@@ -82,6 +84,7 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/darkmatter18/leetcode/tree/master/0572-subtree-of-another-tree) |
+| [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/darkmatter18/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Hash Function
 |  |
