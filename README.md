@@ -23,6 +23,7 @@ I don't know why.......... But I am doing it.
 | [0747-min-cost-climbing-stairs](https://github.com/darkmatter18/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/darkmatter18/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [2358-number-of-ways-to-split-array](https://github.com/darkmatter18/leetcode/tree/master/2358-number-of-ways-to-split-array) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/darkmatter18/leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Prefix Sum
 |  |
@@ -35,6 +36,7 @@ I don't know why.......... But I am doing it.
 | [0001-two-sum](https://github.com/darkmatter18/leetcode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/darkmatter18/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/darkmatter18/leetcode/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/darkmatter18/leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Union Find
 |  |
 | ------- |
@@ -112,4 +114,12 @@ I don't know why.......... But I am doing it.
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/darkmatter18/leetcode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/darkmatter18/leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Segment Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/darkmatter18/leetcode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 <!---LeetCode Topics End-->
